@@ -1,0 +1,12 @@
+1. Install Python
+2. Download opencv for python module. (pip install opencv-python)
+3. Download pyautogui module. (pip install pyautogui)
+4. Download keyboard module. (pip install keyboard)
+
+
+NOTE: To install extra modules make sure python is installed and open a command prompt/terminal.
+NOTE: Inside the terminal/command prompt type python.
+NOTE: Now type in the correct pip install for each module.
+
+
+1. Have deflation mode unlocked on infernal.
