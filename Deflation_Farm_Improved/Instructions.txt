@@ -1,10 +1,16 @@
 1. Read Requirements.
 2. Load Bloons TD 6 up to the home screen. (The screen with overview of everything like play, challenges, and events.)
-3. Open the XPFarmScript.py in command prompt.
+3. Open the XPFarmScript.py in VSC.
 4. Click ENTER, WARNING: Once clicked you have 5 seconds to close the command prompt window if you don't game will begin and it is hard to close.
 
+FOR COMMAND PROMPT:
+1. Open Command Prompt
+2. Type CD and paste ur directory folder for 'Imroved_Deflation_Script'
+3. Type XpFarmScript.py 
+4. Press ENTER when prompted and TAB INTO BLOONS GAME.
 
 Knowledge: 
 1. After every run is complete you have around 5 seconds to close the command prompt (if you are done.)
 2. If you wish to change the script to run for more than 100 rounds check the screenshot here and read below. (Victories_Count_Change.png)
 3. Simply change the 100 to a desired number such as 500 or 50 or 5.
+
