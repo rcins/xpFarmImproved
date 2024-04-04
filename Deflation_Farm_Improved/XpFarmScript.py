@@ -27,8 +27,8 @@ def image_locater(image, clicks = 0, off_x=0, off_y=0):
         pyautogui.moveTo(position, duration=.1)
         pyautogui.moveRel(off_x, off_y)
         pyautogui.click(clicks=clicks, interval=.3)
-
 pass
+        
 
 #Puts you into a game of infernal on deflation
 def into_game():
@@ -41,8 +41,9 @@ def into_game():
         time.sleep(0.01)
 
         #Click Infernal
-        image_locater('Images\Infernal_Icon.png',1)
-        time.sleep(0.01)
+        time.sleep(0.3)
+        pyautogui.click(1307, 661)
+        time.sleep(1)
 
         #Click Easy
         image_locater('Images\Easy_Button.png',1)
@@ -50,7 +51,7 @@ def into_game():
 
         #Click Deflation
         image_locater('Images\Deflation_Button.png',1)
-        time.sleep(2)
+        time.sleep(5)
 
         #Click Ok
         image_locater('Images\OK.jpg',1 )
@@ -176,3 +177,5 @@ while in_Game == True:
      time.sleep(5)
 else:
      print("An unexpected error occured...that/'s weird")
+
+
